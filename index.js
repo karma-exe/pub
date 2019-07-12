@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const prefix = '='
+const prefix = '.'
 bot.on("ready",function() {
     var servers = bot.guilds.array().map(g => g.name).join('\n');
     bot.user.setActivity("🔞𝙍𝙄𝙑𝙀𝙍𝘿𝘼𝙇𝙀💕");
@@ -10,7 +10,7 @@ bot.on("ready",function() {
 
 bot.login("NTg5MDQxNjYwNDI4NTUwMTQ1.XSil6g.5wqut6AN9bdP7M_q5YRVbz8813o");
 bot.on('message', message => {
-    if(message.content.startsWith(prefix + 'mp')){
+    if(message.content.startsWith(prefix + 'p')){
         message.delete()
         let infoEmbed = new Discord.RichEmbed()
       .setTitle("🔞𝙍𝙄𝙑𝙀𝙍𝘿𝘼𝙇𝙀💕")
