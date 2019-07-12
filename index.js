@@ -8,7 +8,7 @@ bot.on("ready",function() {
     console.log("Le bot "+bot.user.username+" est bien été connecté \n" + servers);
 });
 
-bot.login("NTg5MDQxNjYwNDI4NTUwMTQ1.XSiNwg.Fxvfymb_Lnv0vDyVY-1G71XkrFQ");
+bot.login("NTg5MDQxNjYwNDI4NTUwMTQ1.XSil6g.5wqut6AN9bdP7M_q5YRVbz8813o");
 bot.on('message', message => {
     if(message.content.startsWith(prefix + 'mp')){
         message.delete()
